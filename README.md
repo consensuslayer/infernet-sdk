@@ -88,7 +88,7 @@ Ignores self-explanatory files:
 ```bash
 .
 ├── .env.sample # Sample env file (used for deploy scripts)
-├── compiled # Seperately compiled contracts (via solc)
+├── compiled # Separately compiled contracts (via solc)
 │   └── Verifier.sol
 │       ├── Halo2Verifier.json
 │       └── Verifier.sol
