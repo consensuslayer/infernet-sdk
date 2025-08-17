@@ -12,7 +12,7 @@ import {EIP712Coordinator} from "../src/EIP712Coordinator.sol";
 import {WalletFactory} from "../src/payments/WalletFactory.sol";
 
 /// @title Deploy
-/// @notice Deploys Infernet SDK to destination chain defined in environment
+/// @notice Deploys Infernet SDK to the destination chain defined in environment
 contract Deploy is Script {
     function run() public {
         // Setup wallet
