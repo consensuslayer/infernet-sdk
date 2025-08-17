@@ -18,7 +18,7 @@ thisFunctionCallIsReallyLong(
 );
 ```
 
-For the time-being, default `make format` line-breaking is acceptable for uniformity. This is based on a fixed line length of `120` characters instead.
+For the time being, default `make format` line-breaking is acceptable for uniformity. This is based on a fixed line length of `120` characters instead.
 
 ### Imports
 
