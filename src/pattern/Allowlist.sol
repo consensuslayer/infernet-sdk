@@ -44,7 +44,7 @@ abstract contract Allowlist {
     /// @notice Initializes new Allowlist
     /// @param initialAllowed array of initially-allowed node addresses
     constructor(address[] memory initialAllowed) {
-        // For each address in list of initially allowed nodes
+        // For each address in the list of initially allowed nodes
         for (uint256 i = 0; i < initialAllowed.length; i++) {
             // Set allowedNodes[address] to be true (allowed)
             allowedNodes[initialAllowed[i]] = true;
