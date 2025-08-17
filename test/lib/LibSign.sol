@@ -25,7 +25,7 @@ library LibSign {
                            UTILITY FUNCTIONS
     //////////////////////////////////////////////////////////////*/
 
-    /// @notice Generates EIP-712 domain seperator given name, version, and verifyingContract
+    /// @notice Generates EIP-712 domain separator given name, version, and verifyingContract
     /// @param name signing domain name
     /// @param version major version of signing domain
     /// @param verifyingContract address of contract verifying signature
