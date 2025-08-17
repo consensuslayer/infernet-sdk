@@ -30,7 +30,7 @@ contract Wallet is Ownable, Coordinated {
                                  EVENTS
     //////////////////////////////////////////////////////////////*/
 
-    /// @notice Emitted when `Wallet` owner processes a withdrawl
+    /// @notice Emitted when `Wallet` owner processes a withdrawal
     /// @param token token withdrawn
     /// @param amount amount of `token` withdrawn
     event Withdrawl(address token, uint256 amount);
