@@ -58,7 +58,7 @@ abstract contract BaseConsumer {
     /// @param redundancy after this call succeeds, how many nodes will have delivered a response for this interval
     /// @param node address of responding Infernet node
     /// @param input optional off-chain container input recorded by Infernet node (empty, hashed input, processed input, or both), empty for lazy subscriptions
-    /// @param output optional off-chain container output (empty, hashed output, processed output, both, or fallback: all encodeable data), empty for lazy subscriptions
+    /// @param output optional off-chain container output (empty, hashed output, processed output, both, or fallback: all encodable data), empty for lazy subscriptions
     /// @param proof optional off-chain container execution proof (or arbitrary metadata), empty for lazy subscriptions
     /// @param containerId if lazy subscription, subscription compute container ID, else empty
     /// @param index if lazy subscription, `Inbox` lazy store index, else empty
