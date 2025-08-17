@@ -28,7 +28,7 @@ struct InboxItem {
 /// @notice Optionally stores container compute responses
 /// @dev Inherits `Coordinated` to use `onlyCoordinator` modifier for coordinator-permissioned functions
 /// @dev Allows `Coordinator` to store compute responses for lazy consumption with associated `Subscription`(s)
-/// @dev Allows any address to store compute responses for lazy consumptions without associated `Subscription`(s)
+/// @dev Allows any address to store compute responses for lazy consumption without associated `Subscription`(s)
 contract Inbox is Coordinated {
     /*//////////////////////////////////////////////////////////////
                                 MUTABLE
@@ -36,7 +36,7 @@ contract Inbox is Coordinated {
 
     /// @notice containerId => delivering node address => array of delivered compute responses
     /// @dev Notice that validation of an `InboxItem` corresponding to a `containerId` is left to a downstream consumer
-    /// @dev Even though we have a `read` function for `items`, we keep visbility `public` because it may be useful to collect `InboxItem[]` length
+    /// @dev Even though we have a `read` function for `items`, we keep visibility `public` because it may be useful to collect `InboxItem[]` length
     mapping(bytes32 => mapping(address => InboxItem[])) public items;
 
     /*//////////////////////////////////////////////////////////////
