@@ -91,7 +91,7 @@ struct ProofRequest {
 /// @notice Coordination layer between consuming smart contracts and off-chain Infernet nodes
 /// @dev Implements `ReentrancyGuard` to prevent reentrancy in `deliverCompute`
 /// @dev Allows creating and deleting `Subscription`(s)
-/// @dev Allows any address (a `node`) to deliver susbcription outputs via off-chain container compute
+/// @dev Allows any address (a `node`) to deliver subscription outputs via off-chain container compute
 contract Coordinator is ReentrancyGuard {
     /*//////////////////////////////////////////////////////////////
                                IMMUTABLE
